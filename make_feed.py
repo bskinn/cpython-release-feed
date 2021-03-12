@@ -32,7 +32,7 @@ from bs4 import BeautifulSoup as BSoup
 STABLE_URL = "https://www.python.org/downloads/"
 PRERELEASE_URL = "https://www.python.org/download/pre-releases/"
 
-FORMAT = "%(asctime)-15s  %(message)s"
+FORMAT = "%(asctime)-15s  [%(levelname)-10s]  %(message)s"
 logging.basicConfig(format=FORMAT, stream=sys.stderr)
 
 logger = logging.getLogger()
