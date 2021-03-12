@@ -22,6 +22,7 @@ r"""*Module to generate CPython release RSS feed.*
 
 """
 
+import logging
 import sys
 
 import requests as rq
@@ -31,10 +32,10 @@ from bs4 import BeautifulSoup as BSoup
 STABLE_URL = "https://www.python.org/downloads/"
 PRERELEASE_URL = "https://www.python.org/download/pre-releases/"
 
+FORMAT = "%(asctime)-15s  %(message)s"
+logging.basicConfig(format=FORMAT, stream=sys.stderr)
 
-def logprint(text):
-    """Print text to stderr instead of stdout."""
-    print(text, file=sys.stderr)
+logger = logging.getLogger()
 
 
 def resp_report(resp):
@@ -60,21 +61,28 @@ def gen_pre_entries(resp):
     """Yield the release entries from the prerelease downloads page."""
     soup = BSoup(resp.text, "html.parser")
 
-    # yield from ()
+    yield from (
+        li for li in soup.find_all("li") if li.find("a", class_="reference external")
+    )
 
 
 def main():
     """Execute data collection and feed generation."""
     resp_stable, resp_pre = get_release_pages()
     if not resp_stable.ok:
-        logprint(f"Stable release page download failed: {resp_report(resp_stable)}")
+        logger.critical(
+            f"Stable release page download failed: {resp_report(resp_stable)}"
+        )
         return 1
     if not resp_pre.ok:
-        logprint(f"Prerelease page download failed: {resp_report(resp_pre)}")
+        logger.critical(f"Prerelease page download failed: {resp_report(resp_pre)}")
         return 1
 
     for li in gen_stable_entries(resp_stable):
         print(li.find("span", class_="release-number").find("a").text)
+
+    for li in gen_pre_entries(resp_pre):
+        print(li.find("a", class_="reference external").text)
 
 
 if __name__ == "__main__":
