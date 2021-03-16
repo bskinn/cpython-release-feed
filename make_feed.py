@@ -53,7 +53,7 @@ def gen_stable_entries(resp):
     soup = BSoup(resp.text, "html.parser")
 
     yield from (
-        li for li in soup.find_all("li") if li.find("span", class_="release-number")
+        li for li in soup("li") if li.find("span", class_="release-number")
     )
 
 
@@ -62,7 +62,7 @@ def gen_pre_entries(resp):
     soup = BSoup(resp.text, "html.parser")
 
     yield from (
-        li for li in soup.find_all("li") if li.find("a", class_="reference external")
+        li for li in soup("li") if li.find("a", class_="reference external")
     )
 
 
@@ -84,6 +84,9 @@ def main():
     for li in gen_pre_entries(resp_pre):
         print(li.find("a", class_="reference external").text)
 
+    li = next(iter(gen_stable_entries(resp_stable)))
+    print(li)
+    breakpoint()
 
 if __name__ == "__main__":
     sys.exit(main())

@@ -2,4 +2,5 @@ arrow
 beautifulsoup4
 black
 feedgen
+pdbpp
 requests
