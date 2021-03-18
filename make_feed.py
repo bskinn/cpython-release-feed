@@ -37,6 +37,8 @@ from feedgen.feed import FeedGenerator  # type: ignore
 from packaging.utils import canonicalize_version
 
 
+PYTHON_ORG: str = "https://www.python.org/"
+
 STABLE_URL: str = "https://www.python.org/downloads/"
 PRERELEASE_URL: str = "https://www.python.org/download/pre-releases/"
 
@@ -84,13 +86,13 @@ def gen_pre_entries(resp: rq.Response) -> Iterable[bs4.Tag]:
 
 
 def released_date_conversion(dstr: str) -> datetime:
-    """Attempt various possible formats for the release date."""
-    FORMATS = ("MMM. DD, YYYY", "MMM DD, YYYY", "MMMM DD, YYYY")
+    """Attempt release date parsing with various formats."""
+    FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
 
-    dstr = dstr.lower()
+    dstr = dstr.title()
 
     # "Sept" is not a recognized abbreviation
-    dstr = dstr.replace("sept", "sep")
+    dstr = dstr.replace("Sept", "Sep")
 
     released = None
 
@@ -117,7 +119,7 @@ def extract_stable_info(li: bs4.Tag) -> Info:
     released = released_date_conversion(released)
 
     url = li.find("span", class_="release-download").a["href"]
-    url = f"https://python.org{url}"
+    url = f"{PYTHON_ORG}{url.removeprefix('/')}"
 
     return Info(version=version, released=released, url=url)
 
@@ -146,7 +148,7 @@ def create_base_feed() -> FeedGenerator:
 
 def add_feed_item(fg: FeedGenerator, info: Info) -> None:
     """Add the item information from 'info' in a new entry on 'fg'."""
-    fe = fg.add_entry()
+    fe = fg.add_entry(order="append")
 
     fe.id(f"{ID_URL}-{info.version}")
     fe.title(desc := f"CPython {info.version}")
@@ -176,15 +178,24 @@ def main():
 
     logger.info("Download pages retrieved.")
 
-    for li in gen_stable_entries(resp_stable):
-        print(li.find("span", class_="release-number").find("a").text)
+    # for li in gen_stable_entries(resp_stable):
+    #     # print(li.find("span", class_="release-number").find("a").text)
+    #     print(extract_stable_info(li))
 
-    for li in gen_pre_entries(resp_pre):
-        print(li.find("a", class_="reference external").text)
+    # for li in gen_pre_entries(resp_pre):
+    #     print(li.find("a", class_="reference external").text)
 
-    li = next(iter(gen_stable_entries(resp_stable)))
-    print(li)
-    breakpoint()
+    # li = next(iter(gen_stable_entries(resp_stable)))
+    # print(li)
+    # breakpoint()
+
+    fg = create_base_feed()
+    [
+        add_feed_item(fg, extract_stable_info(li))
+        for li in gen_stable_entries(resp_stable)
+    ]
+
+    write_feed(fg)
 
 
 if __name__ == "__main__":

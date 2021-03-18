@@ -1,1 +1,1130 @@
-"SEED" 
+<?xml version='1.0' encoding='UTF-8'?>
+<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/" version="2.0">
+  <channel>
+    <title>CPython Release Downloads</title>
+    <link>https://github.com/bskinn/cpython-release-feed</link>
+    <description>Feed for CPython releases posted to www.python.org</description>
+    <atom:link href="https://github.com/bskinn/cpython-release-feed/raw/master/feed/feed.rss" rel="self"/>
+    <docs>http://www.rssboard.org/rss-specification</docs>
+    <generator>python-feedgen</generator>
+    <image>
+      <url>https://github.com/bskinn/cpython-release-feed/raw/master/_static/py-release-logo.jpg</url>
+      <title>CPython Release Downloads</title>
+      <link>https://github.com/bskinn/cpython-release-feed</link>
+    </image>
+    <language>en</language>
+    <lastBuildDate>Thu, 18 Mar 2021 19:02:19 +0000</lastBuildDate>
+    <item>
+      <title>CPython 3.9.2</title>
+      <link>https://www.python.org/downloads/release/python-392/</link>
+      <description>CPython 3.9.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.9.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.8</title>
+      <link>https://www.python.org/downloads/release/python-388/</link>
+      <description>CPython 3.8.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.13</title>
+      <link>https://www.python.org/downloads/release/python-3613/</link>
+      <description>CPython 3.6.13</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.13</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.10</title>
+      <link>https://www.python.org/downloads/release/python-3710/</link>
+      <description>CPython 3.7.10</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.10</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.7</title>
+      <link>https://www.python.org/downloads/release/python-387/</link>
+      <description>CPython 3.8.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.9.1</title>
+      <link>https://www.python.org/downloads/release/python-391/</link>
+      <description>CPython 3.9.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.9.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.9.0</title>
+      <link>https://www.python.org/downloads/release/python-390/</link>
+      <description>CPython 3.9.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.9.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.6</title>
+      <link>https://www.python.org/downloads/release/python-386/</link>
+      <description>CPython 3.8.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.10</title>
+      <link>https://www.python.org/downloads/release/python-3510/</link>
+      <description>CPython 3.5.10</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.10</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.9</title>
+      <link>https://www.python.org/downloads/release/python-379/</link>
+      <description>CPython 3.7.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.9</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.12</title>
+      <link>https://www.python.org/downloads/release/python-3612/</link>
+      <description>CPython 3.6.12</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.12</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.5</title>
+      <link>https://www.python.org/downloads/release/python-385/</link>
+      <description>CPython 3.8.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.4</title>
+      <link>https://www.python.org/downloads/release/python-384/</link>
+      <description>CPython 3.8.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.8</title>
+      <link>https://www.python.org/downloads/release/python-378/</link>
+      <description>CPython 3.7.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.11</title>
+      <link>https://www.python.org/downloads/release/python-3611/</link>
+      <description>CPython 3.6.11</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.11</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.3</title>
+      <link>https://www.python.org/downloads/release/python-383/</link>
+      <description>CPython 3.8.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.18</title>
+      <link>https://www.python.org/downloads/release/python-2718/</link>
+      <description>CPython 2.7.18</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.18</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.7</title>
+      <link>https://www.python.org/downloads/release/python-377/</link>
+      <description>CPython 3.7.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.2</title>
+      <link>https://www.python.org/downloads/release/python-382/</link>
+      <description>CPython 3.8.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.1</title>
+      <link>https://www.python.org/downloads/release/python-381/</link>
+      <description>CPython 3.8.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.6</title>
+      <link>https://www.python.org/downloads/release/python-376/</link>
+      <description>CPython 3.7.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.10</title>
+      <link>https://www.python.org/downloads/release/python-3610/</link>
+      <description>CPython 3.6.10</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.10</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.9</title>
+      <link>https://www.python.org/downloads/release/python-359/</link>
+      <description>CPython 3.5.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.9</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.8</title>
+      <link>https://www.python.org/downloads/release/python-358/</link>
+      <description>CPython 3.5.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.17</title>
+      <link>https://www.python.org/downloads/release/python-2717/</link>
+      <description>CPython 2.7.17</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.17</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.5</title>
+      <link>https://www.python.org/downloads/release/python-375/</link>
+      <description>CPython 3.7.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.0</title>
+      <link>https://www.python.org/downloads/release/python-380/</link>
+      <description>CPython 3.8.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.4</title>
+      <link>https://www.python.org/downloads/release/python-374/</link>
+      <description>CPython 3.7.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.9</title>
+      <link>https://www.python.org/downloads/release/python-369/</link>
+      <description>CPython 3.6.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.9</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.3</title>
+      <link>https://www.python.org/downloads/release/python-373/</link>
+      <description>CPython 3.7.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.10</title>
+      <link>https://www.python.org/downloads/release/python-3410/</link>
+      <description>CPython 3.4.10</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.10</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.7</title>
+      <link>https://www.python.org/downloads/release/python-357/</link>
+      <description>CPython 3.5.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.16</title>
+      <link>https://www.python.org/downloads/release/python-2716/</link>
+      <description>CPython 2.7.16</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.16</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.2</title>
+      <link>https://www.python.org/downloads/release/python-372/</link>
+      <description>CPython 3.7.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.8</title>
+      <link>https://www.python.org/downloads/release/python-368/</link>
+      <description>CPython 3.6.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.1</title>
+      <link>https://www.python.org/downloads/release/python-371/</link>
+      <description>CPython 3.7.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.7</title>
+      <link>https://www.python.org/downloads/release/python-367/</link>
+      <description>CPython 3.6.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.6</title>
+      <link>https://www.python.org/downloads/release/python-356/</link>
+      <description>CPython 3.5.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.9</title>
+      <link>https://www.python.org/downloads/release/python-349/</link>
+      <description>CPython 3.4.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.9</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.7.0</title>
+      <link>https://www.python.org/downloads/release/python-370/</link>
+      <description>CPython 3.7.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.7.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.6</title>
+      <link>https://www.python.org/downloads/release/python-366/</link>
+      <description>CPython 3.6.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.15</title>
+      <link>https://www.python.org/downloads/release/python-2715/</link>
+      <description>CPython 2.7.15</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.15</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.5</title>
+      <link>https://www.python.org/downloads/release/python-365/</link>
+      <description>CPython 3.6.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.8</title>
+      <link>https://www.python.org/downloads/release/python-348/</link>
+      <description>CPython 3.4.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.5</title>
+      <link>https://www.python.org/downloads/release/python-355/</link>
+      <description>CPython 3.5.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.4</title>
+      <link>https://www.python.org/downloads/release/python-364/</link>
+      <description>CPython 3.6.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.3</title>
+      <link>https://www.python.org/downloads/release/python-363/</link>
+      <description>CPython 3.6.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.7</title>
+      <link>https://www.python.org/downloads/release/python-337/</link>
+      <description>CPython 3.3.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.14</title>
+      <link>https://www.python.org/downloads/release/python-2714/</link>
+      <description>CPython 2.7.14</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.14</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.7</title>
+      <link>https://www.python.org/downloads/release/python-347/</link>
+      <description>CPython 3.4.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.4</title>
+      <link>https://www.python.org/downloads/release/python-354/</link>
+      <description>CPython 3.5.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.2</title>
+      <link>https://www.python.org/downloads/release/python-362/</link>
+      <description>CPython 3.6.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.1</title>
+      <link>https://www.python.org/downloads/release/python-361/</link>
+      <description>CPython 3.6.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.6</title>
+      <link>https://www.python.org/downloads/release/python-346/</link>
+      <description>CPython 3.4.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.3</title>
+      <link>https://www.python.org/downloads/release/python-353/</link>
+      <description>CPython 3.5.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.6.0</title>
+      <link>https://www.python.org/downloads/release/python-360/</link>
+      <description>CPython 3.6.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.6.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.13</title>
+      <link>https://www.python.org/downloads/release/python-2713/</link>
+      <description>CPython 2.7.13</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.13</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.5</title>
+      <link>https://www.python.org/downloads/release/python-345/</link>
+      <description>CPython 3.4.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.2</title>
+      <link>https://www.python.org/downloads/release/python-352/</link>
+      <description>CPython 3.5.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.12</title>
+      <link>https://www.python.org/downloads/release/python-2712/</link>
+      <description>CPython 2.7.12</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.12</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.4</title>
+      <link>https://www.python.org/downloads/release/python-344/</link>
+      <description>CPython 3.4.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.1</title>
+      <link>https://www.python.org/downloads/release/python-351/</link>
+      <description>CPython 3.5.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.11</title>
+      <link>https://www.python.org/downloads/release/python-2711/</link>
+      <description>CPython 2.7.11</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.11</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.5.0</title>
+      <link>https://www.python.org/downloads/release/python-350/</link>
+      <description>CPython 3.5.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.5.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.10</title>
+      <link>https://www.python.org/downloads/release/python-2710/</link>
+      <description>CPython 2.7.10</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.10</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.3</title>
+      <link>https://www.python.org/downloads/release/python-343/</link>
+      <description>CPython 3.4.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.9</title>
+      <link>https://www.python.org/downloads/release/python-279/</link>
+      <description>CPython 2.7.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.9</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.2</title>
+      <link>https://www.python.org/downloads/release/python-342/</link>
+      <description>CPython 3.4.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.6</title>
+      <link>https://www.python.org/downloads/release/python-336/</link>
+      <description>CPython 3.3.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.6</title>
+      <link>https://www.python.org/downloads/release/python-326/</link>
+      <description>CPython 3.2.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.8</title>
+      <link>https://www.python.org/downloads/release/python-278/</link>
+      <description>CPython 2.7.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.7</title>
+      <link>https://www.python.org/downloads/release/python-277/</link>
+      <description>CPython 2.7.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.1</title>
+      <link>https://www.python.org/downloads/release/python-341/</link>
+      <description>CPython 3.4.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.4.0</title>
+      <link>https://www.python.org/downloads/release/python-340/</link>
+      <description>CPython 3.4.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.4.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.5</title>
+      <link>https://www.python.org/downloads/release/python-335/</link>
+      <description>CPython 3.3.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.4</title>
+      <link>https://www.python.org/downloads/release/python-334/</link>
+      <description>CPython 3.3.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.3</title>
+      <link>https://www.python.org/downloads/release/python-333/</link>
+      <description>CPython 3.3.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.6</title>
+      <link>https://www.python.org/downloads/release/python-276/</link>
+      <description>CPython 2.7.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.9</title>
+      <link>https://www.python.org/downloads/release/python-269/</link>
+      <description>CPython 2.6.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.9</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.5</title>
+      <link>https://www.python.org/downloads/release/python-325/</link>
+      <description>CPython 3.2.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.2</title>
+      <link>https://www.python.org/downloads/release/python-332/</link>
+      <description>CPython 3.3.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.5</title>
+      <link>https://www.python.org/downloads/release/python-275/</link>
+      <description>CPython 2.7.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.4</title>
+      <link>https://www.python.org/downloads/release/python-324/</link>
+      <description>CPython 3.2.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.4</title>
+      <link>https://www.python.org/downloads/release/python-274/</link>
+      <description>CPython 2.7.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.1</title>
+      <link>https://www.python.org/downloads/release/python-331/</link>
+      <description>CPython 3.3.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.0</title>
+      <link>https://www.python.org/downloads/release/python-330/</link>
+      <description>CPython 3.3.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.8</title>
+      <link>https://www.python.org/downloads/release/python-268/</link>
+      <description>CPython 2.6.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.8</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.3</title>
+      <link>https://www.python.org/downloads/release/python-323/</link>
+      <description>CPython 3.2.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.5</title>
+      <link>https://www.python.org/downloads/release/python-315/</link>
+      <description>CPython 3.1.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.3</title>
+      <link>https://www.python.org/downloads/release/python-273/</link>
+      <description>CPython 2.7.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.2</title>
+      <link>https://www.python.org/downloads/release/python-322/</link>
+      <description>CPython 3.2.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.1</title>
+      <link>https://www.python.org/downloads/release/python-321/</link>
+      <description>CPython 3.2.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.2</title>
+      <link>https://www.python.org/downloads/release/python-272/</link>
+      <description>CPython 2.7.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.4</title>
+      <link>https://www.python.org/downloads/release/python-314/</link>
+      <description>CPython 3.1.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.7</title>
+      <link>https://www.python.org/downloads/release/python-267/</link>
+      <description>CPython 2.6.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.6</title>
+      <link>https://www.python.org/downloads/release/python-256/</link>
+      <description>CPython 2.5.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.0</title>
+      <link>https://www.python.org/downloads/release/python-320/</link>
+      <description>CPython 3.2.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.3</title>
+      <link>https://www.python.org/downloads/release/python-313/</link>
+      <description>CPython 3.1.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.1</title>
+      <link>https://www.python.org/downloads/release/python-271/</link>
+      <description>CPython 2.7.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.6</title>
+      <link>https://www.python.org/downloads/release/python-266/</link>
+      <description>CPython 2.6.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.7.0</title>
+      <link>https://www.python.org/downloads/release/python-270/</link>
+      <description>CPython 2.7.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.2</title>
+      <link>https://www.python.org/downloads/release/python-312/</link>
+      <description>CPython 3.1.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.5</title>
+      <link>https://www.python.org/downloads/release/python-265/</link>
+      <description>CPython 2.6.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.5</title>
+      <link>https://www.python.org/downloads/release/python-255/</link>
+      <description>CPython 2.5.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.4</title>
+      <link>https://www.python.org/downloads/release/python-264/</link>
+      <description>CPython 2.6.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.3</title>
+      <link>https://www.python.org/downloads/release/python-263/</link>
+      <description>CPython 2.6.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.1</title>
+      <link>https://www.python.org/downloads/release/python-311/</link>
+      <description>CPython 3.1.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.0</title>
+      <link>https://www.python.org/downloads/release/python-310/</link>
+      <description>CPython 3.1.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.2</title>
+      <link>https://www.python.org/downloads/release/python-262/</link>
+      <description>CPython 2.6.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.0.1</title>
+      <link>https://www.python.org/downloads/release/python-301/</link>
+      <description>CPython 3.0.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.0.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.4</title>
+      <link>https://www.python.org/downloads/release/python-254/</link>
+      <description>CPython 2.5.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.3</title>
+      <link>https://www.python.org/downloads/release/python-253/</link>
+      <description>CPython 2.5.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.6</title>
+      <link>https://www.python.org/downloads/release/python-246/</link>
+      <description>CPython 2.4.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.1</title>
+      <link>https://www.python.org/downloads/release/python-261/</link>
+      <description>CPython 2.6.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.0.0</title>
+      <link>https://www.python.org/downloads/release/python-300/</link>
+      <description>CPython 3.0.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.0.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.0</title>
+      <link>https://www.python.org/downloads/release/python-260/</link>
+      <description>CPython 2.6.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.5</title>
+      <link>https://www.python.org/downloads/release/python-245/</link>
+      <description>CPython 2.4.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.7</title>
+      <link>https://www.python.org/downloads/release/python-237/</link>
+      <description>CPython 2.3.7</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.7</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.2</title>
+      <link>https://www.python.org/downloads/release/python-252/</link>
+      <description>CPython 2.5.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.1</title>
+      <link>https://www.python.org/downloads/release/python-251/</link>
+      <description>CPython 2.5.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.6</title>
+      <link>https://www.python.org/downloads/release/python-236/</link>
+      <description>CPython 2.3.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.6</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.4</title>
+      <link>https://www.python.org/downloads/release/python-244/</link>
+      <description>CPython 2.4.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.0</title>
+      <link>https://www.python.org/downloads/release/python-250/</link>
+      <description>CPython 2.5.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.3</title>
+      <link>https://www.python.org/downloads/release/python-243/</link>
+      <description>CPython 2.4.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.2</title>
+      <link>https://www.python.org/downloads/release/python-242/</link>
+      <description>CPython 2.4.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.1</title>
+      <link>https://www.python.org/downloads/release/python-241/</link>
+      <description>CPython 2.4.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.5</title>
+      <link>https://www.python.org/downloads/release/python-235/</link>
+      <description>CPython 2.3.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.5</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.0</title>
+      <link>https://www.python.org/downloads/release/python-240/</link>
+      <description>CPython 2.4.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.4</title>
+      <link>https://www.python.org/downloads/release/python-234/</link>
+      <description>CPython 2.3.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.4</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.3</title>
+      <link>https://www.python.org/downloads/release/python-233/</link>
+      <description>CPython 2.3.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.2</title>
+      <link>https://www.python.org/downloads/release/python-232/</link>
+      <description>CPython 2.3.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.1</title>
+      <link>https://www.python.org/downloads/release/python-231/</link>
+      <description>CPython 2.3.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.3.0</title>
+      <link>https://www.python.org/downloads/release/python-230/</link>
+      <description>CPython 2.3.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.2.3</title>
+      <link>https://www.python.org/downloads/release/python-223/</link>
+      <description>CPython 2.2.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.2.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.2.2</title>
+      <link>https://www.python.org/downloads/release/python-222/</link>
+      <description>CPython 2.2.2</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.2.2</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.2.1</title>
+      <link>https://www.python.org/downloads/release/python-221/</link>
+      <description>CPython 2.2.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.2.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.1.3</title>
+      <link>https://www.python.org/downloads/release/python-213/</link>
+      <description>CPython 2.1.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.1.3</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.2.0</title>
+      <link>https://www.python.org/downloads/release/python-220/</link>
+      <description>CPython 2.2.0</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.2.0</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.0.1</title>
+      <link>https://www.python.org/downloads/release/python-201/</link>
+      <description>CPython 2.0.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.0.1</guid>
+      <pubDate>Thu, 18 Mar 2021 19:02:19 +0000</pubDate>
+    </item>
+  </channel>
+</rss>
