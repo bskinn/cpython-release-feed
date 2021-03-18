@@ -1,6 +1,9 @@
 arrow
+attrs
 beautifulsoup4
 black
 feedgen
+mypy
+packaging
 pdbpp
 requests
