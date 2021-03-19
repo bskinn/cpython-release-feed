@@ -23,10 +23,11 @@ r"""*Module to generate CPython release RSS feed.*
 """
 
 import logging
+import re
 import sys
 from datetime import datetime
 from pathlib import Path
-from typing import Iterable
+from typing import Iterable, Union
 
 import arrow  # type: ignore
 import attr
@@ -48,6 +49,8 @@ FEED_PATH: Path = Path("feed", "feed.rss")
 
 TIMESTAMP: datetime = arrow.utcnow().datetime
 
+RELEASE_DATE_FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
+
 FORMAT: str = "%(asctime)-15s  [%(levelname)-10s]  %(message)s"
 logging.basicConfig(format=FORMAT, stream=sys.stderr)
 
@@ -59,6 +62,15 @@ class Info:
     version: str = attr.ib(validator=attr.validators.instance_of(str))
     url: str = attr.ib(validator=attr.validators.instance_of(str))
     released: datetime = attr.ib(validator=attr.validators.instance_of(datetime))
+
+
+def filter_pre_released_date_tag(tag: bs4.Tag) -> bool:
+    """Filter prerelease page tags to find the paragraph with the release date."""
+    return bool(
+        tag.name == "p"
+        and re.search(r"\d{4}", tag.text)
+        and re.search("release +date", tag.text.lower())
+    )
 
 
 def resp_report(resp: rq.Response) -> str:
@@ -78,17 +90,20 @@ def gen_stable_entries(resp: rq.Response) -> Iterable[bs4.Tag]:
     yield from (li for li in soup("li") if li.find("span", class_="release-number"))
 
 
-def gen_pre_entries(resp: rq.Response) -> Iterable[bs4.Tag]:
-    """Yield the release entries from the prerelease downloads page."""
+def gen_pre_entries(resp: rq.Response) -> Iterable[rq.Response]:
+    """Yield the web responses from the prerelease downloads page."""
     soup = BSoup(resp.text, "html.parser")
 
-    yield from (li for li in soup("li") if li.find("a", class_="reference external"))
+    pre_resps = []
+    for li in soup("li"):
+        if anch := li.find("a", class_="reference external"):
+            pre_resps.append(rq.get(f"{PYTHON_ORG}{anch['href'].removeprefix('/')}"))
+
+    yield from pre_resps
 
 
 def released_date_conversion(dstr: str) -> datetime:
     """Attempt release date parsing with various formats."""
-    FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
-
     dstr = dstr.title()
 
     # "Sept" is not a recognized abbreviation
@@ -96,7 +111,7 @@ def released_date_conversion(dstr: str) -> datetime:
 
     released = None
 
-    for fstr in FORMATS:
+    for fstr in RELEASE_DATE_FORMATS:
         try:
             released = arrow.get(dstr, fstr)
         except arrow.parser.ParserMatchError:
@@ -120,6 +135,21 @@ def extract_stable_info(li: bs4.Tag) -> Info:
 
     url = li.find("span", class_="release-download").a["href"]
     url = f"{PYTHON_ORG}{url.removeprefix('/')}"
+
+    return Info(version=version, released=released, url=url)
+
+
+def extract_pre_info(resp: rq.Response) -> Info:
+    """Produce an Info instance with relevant info for the provided pre-release."""
+    body = BSoup(resp.text, "html.parser").body
+
+    version = body.find("h1", class_="page-title").string
+    version = version.rpartition(" ")[2]
+
+    released = body.find(filter_pre_released_date_tag).text
+    released = released_date_conversion(released.partition(":")[2].strip())
+
+    url = resp.url
 
     return Info(version=version, released=released, url=url)
 
@@ -155,8 +185,8 @@ def add_feed_item(fg: FeedGenerator, info: Info) -> None:
     fe.link({"href": info.url, "rel": "alternate"})
     fe.author(fg.author())
     fe.content(desc)
-    fe.updated(info.released)
-    fe.published(arrow.utcnow().datetime)
+    fe.updated(arrow.utcnow().datetime)
+    fe.published(info.released)
 
 
 def write_feed(fg: FeedGenerator) -> None:
@@ -178,18 +208,11 @@ def main():
 
     logger.info("Download pages retrieved.")
 
-    # for li in gen_stable_entries(resp_stable):
-    #     # print(li.find("span", class_="release-number").find("a").text)
-    #     print(extract_stable_info(li))
-
-    # for li in gen_pre_entries(resp_pre):
-    #     print(li.find("a", class_="reference external").text)
-
-    # li = next(iter(gen_stable_entries(resp_stable)))
-    # print(li)
-    # breakpoint()
-
     fg = create_base_feed()
+
+    # Pre-release(s) first so that they populate at the head of the
+    # feed
+    [add_feed_item(fg, extract_pre_info(body)) for body in gen_pre_entries(resp_pre)]
     [
         add_feed_item(fg, extract_stable_info(li))
         for li in gen_stable_entries(resp_stable)
