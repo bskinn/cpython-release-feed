@@ -6,18 +6,18 @@ do_commit () {
 
   if [[ $AMEND_OPTION = "Y" ]]
   then
-    $AMEND_FLAG=--amend
-    $FORCE_FLAG=-f
+    AMEND_FLAG=--amend
+    FORCE_FLAG=-f
   else
-    $AMEND_FLAG=
-    $FORCE_FLAG=
+    AMEND_FLAG=
+    FORCE_FLAG=
   fi
 
   git add . && git commit -m "Commit test log - $( date -uIs )" $AMEND_FLAG
   
   if [[ $? -eq 0 ]]
   then
-    git push
+    git push $FORCE_FLAG
   fi
 }
 
@@ -30,7 +30,7 @@ fi
 
 if [[ $TRIGGER = "workflow_dispatch" && $COMMIT_OPTION = "Y" ]]
 then
-  do_commit $FORCE_FLAG
+  do_commit
   exit 0
 fi
 
