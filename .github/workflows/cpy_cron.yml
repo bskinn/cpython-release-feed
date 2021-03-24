@@ -12,10 +12,6 @@ on:
         description: 'Commit feed back to branch (y/n)?'
         required: true
         default: 'n'
-      amend_commit:
-        description: 'Amend current commit (y/n)?'
-        required: true
-        default: 'n'
 
 
 jobs:
@@ -49,12 +45,9 @@ jobs:
       env:
         TRIGGER: ${{ github.event_name }}
         COMMIT_OPTION: ${{ github.event.inputs.do_commit }}
-        AMEND_OPTION: ${{ github.event.inputs.do_commit }}
       run: |
         COMMIT_OPTION=$( echo ${COMMIT_OPTION^} | cut -c1-1 )
-        AMEND_OPTION=$( echo ${AMEND_OPTION^} | cut -c1-1 )
         echo TRIGGER is "'"$TRIGGER"'"
         echo COMMIT_OPTION is "'"$COMMIT_OPTION"'"
-        echo AMEND_OPTION is "'"$AMEND_OPTION"'"
         git status
         ./do_commit

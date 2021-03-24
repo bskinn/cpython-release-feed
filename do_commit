@@ -4,26 +4,16 @@ do_commit () {
   git config user.name "Brian Skinn"
   git config user.email "brian.skinn@gmail.com"
 
-  if [[ $AMEND_OPTION = "Y" ]]
-  then
-    AMEND_FLAG=--amend
-    FORCE_FLAG=-f
-  else
-    AMEND_FLAG=
-    FORCE_FLAG=
-  fi
-
-  git add . && git commit -m "Commit test log - $( date -uIs )" $AMEND_FLAG
+  git add . && git commit -m "Commit test log - $( date -uIs )"
   
   if [[ $? -eq 0 ]]
   then
-    git push $FORCE_FLAG
+    git push
   fi
 }
 
 if [[ $TRIGGER = "schedule" ]]
 then
-  export AMEND_OPTION=Y
   do_commit
   exit 0
 fi
