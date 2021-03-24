@@ -1,0 +1,59 @@
+name: cpy-cron
+
+on: 
+  push:
+    branches:
+      - test-*
+  schedule:
+    - cron: '45 0 * * *'
+  workflow_dispatch:
+    inputs:
+      do_commit:
+        description: 'Commit feed back to branch (y/n)?'
+        required: true
+        default: 'n'
+      amend_commit:
+        description: 'Amend current commit (y/n)?'
+        required: true
+        default: 'y'
+
+
+jobs:
+  link_check:
+    name: Update CPython release feed
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Check out repo
+      uses: actions/checkout@v2
+
+    - name: Install Python
+      uses: actions/setup-python@v2
+      with:
+        python-version: 3.9
+
+    - name: Update pip
+      run: python -m pip install -U pip
+
+    - name: Install & report dependencies
+      run: |
+        python -m pip install -r requirements.txt
+        python --version
+        pip list
+
+    - name: Update feed
+      run: |
+        python make_feed.py
+
+    - name: Commit log (depending)
+      env:
+        TRIGGER: ${{ github.event_name }}
+        COMMIT_OPTION: ${{ github.event.inputs.do_commit }}
+        AMEND_OPTION: ${{ github.event.inputs.do_commit }}
+      run: |
+        COMMIT_OPTION=$( echo ${COMMIT_OPTION^} | cut -c1-1 )
+        AMEND_OPTION=$( echo ${AMEND_OPTION^} | cut -c1-1 )
+        echo TRIGGER is "'"$TRIGGER"'"
+        echo COMMIT_OPTION is "'"$COMMIT_OPTION"'"
+        echo AMEND_OPTION is "'"$AMEND_OPTION"'"
+        ./do_commit
