@@ -52,7 +52,7 @@ TIMESTAMP: datetime = arrow.utcnow().datetime
 RELEASE_DATE_FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
 
 FORMAT: str = "%(asctime)-15s  [%(levelname)-10s]  %(message)s"
-logging.basicConfig(format=FORMAT, stream=sys.stderr)
+logging.basicConfig(format=FORMAT, stream=sys.stdout, level=logging.INFO)
 
 logger: logging.Logger = logging.getLogger()
 
@@ -188,6 +188,8 @@ def add_feed_item(fg: FeedGenerator, info: Info) -> None:
     fe.updated(arrow.utcnow().datetime)
     fe.published(info.released)
 
+    logger.debug(f"Feed entry created for {fe.title()}")
+
 
 def write_feed(fg: FeedGenerator) -> None:
     """Write the completed RSS feed to disk."""
@@ -209,16 +211,21 @@ def main():
     logger.info("Download pages retrieved.")
 
     fg = create_base_feed()
+    logger.info("Base feed generator created")
 
     # Pre-release(s) first so that they populate at the head of the
     # feed
     [add_feed_item(fg, extract_pre_info(body)) for body in gen_pre_entries(resp_pre)]
+    logger.info("Prereleases added to feed")
+
     [
         add_feed_item(fg, extract_stable_info(li))
         for li in gen_stable_entries(resp_stable)
     ]
+    logger.info("Stable releases added to feed")
 
     write_feed(fg)
+    logger.info("Feed written to disk")
 
 
 if __name__ == "__main__":
