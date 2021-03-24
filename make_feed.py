@@ -52,7 +52,7 @@ TIMESTAMP: datetime = arrow.utcnow().datetime
 RELEASE_DATE_FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
 
 FORMAT: str = "%(asctime)-15s  [%(levelname)-10s]  %(message)s"
-logging.basicConfig(format=FORMAT, stream=sys.stderr)
+logging.basicConfig(format=FORMAT, stream=sys.stdout)
 
 logger: logging.Logger = logging.getLogger()
 

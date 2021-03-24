@@ -56,4 +56,5 @@ jobs:
         echo TRIGGER is "'"$TRIGGER"'"
         echo COMMIT_OPTION is "'"$COMMIT_OPTION"'"
         echo AMEND_OPTION is "'"$AMEND_OPTION"'"
+        git status
         ./do_commit
