@@ -41,7 +41,7 @@ jobs:
       run: |
         python make_feed.py
 
-    - name: Commit log (depending)
+    - name: Commit feed (depending)
       env:
         TRIGGER: ${{ github.event_name }}
         COMMIT_OPTION: ${{ github.event.inputs.do_commit }}
