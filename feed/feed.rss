@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Apr 2021 02:01:45 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Apr 2021 01:50:04 +0000</lastBuildDate>
     <item>
       <title>CPython 3.10.0a6</title>
       <link>https://www.python.org/downloads/release/python-3100a6/</link>
@@ -21,6 +21,22 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.10.0a6</guid>
       <pubDate>Mon, 01 Mar 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.9.3</title>
+      <link>https://www.python.org/downloads/release/python-393/</link>
+      <description>CPython 3.9.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.9.3</guid>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.8.9</title>
+      <link>https://www.python.org/downloads/release/python-389/</link>
+      <description>CPython 3.8.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.8.9</guid>
+      <pubDate>Fri, 02 Apr 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.9.2</title>
