@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 11 Jul 2021 01:46:41 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 12 Jul 2021 01:42:06 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.10.0b3</title>
-      <link>https://www.python.org/downloads/release/python-3100b3/</link>
-      <description>CPython 3.10.0b3</description>
+      <title>CPython 3.10.0b4</title>
+      <link>https://www.python.org/downloads/release/python-3100b4/</link>
+      <description>CPython 3.10.0b4</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.10.0b3</guid>
-      <pubDate>Thu, 17 Jun 2021 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.10.0b4</guid>
+      <pubDate>Sat, 10 Jul 2021 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.9.6</title>
