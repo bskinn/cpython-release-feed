@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 26 Jul 2022 01:08:28 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 27 Jul 2022 01:09:16 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.11.0b4</title>
-      <link>https://www.python.org/downloads/release/python-3110b4/</link>
-      <description>CPython 3.11.0b4</description>
+      <title>CPython 3.11.0b5</title>
+      <link>https://www.python.org/downloads/release/python-3110b5/</link>
+      <description>CPython 3.11.0b5</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.11.0b4</guid>
-      <pubDate>Mon, 11 Jul 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.11.0b5</guid>
+      <pubDate>Tue, 26 Jul 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.10.5</title>
