@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Sep 2022 01:10:48 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 13 Sep 2022 01:08:12 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.11.0rc1</title>
-      <link>https://www.python.org/downloads/release/python-3110rc1/</link>
-      <description>CPython 3.11.0rc1</description>
+      <title>CPython 3.11.0rc2</title>
+      <link>https://www.python.org/downloads/release/python-3110rc2/</link>
+      <description>CPython 3.11.0rc2</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.11.0rc1</guid>
-      <pubDate>Mon, 08 Aug 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.11.0rc2</guid>
+      <pubDate>Mon, 12 Sep 2022 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.7.14</title>
