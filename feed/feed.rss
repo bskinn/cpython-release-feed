@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Jan 2023 01:07:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Jan 2023 01:07:09 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.12.0a3</title>
-      <link>https://www.python.org/downloads/release/python-3120a3/</link>
-      <description>CPython 3.12.0a3</description>
+      <title>CPython 3.12.0a4</title>
+      <link>https://www.python.org/downloads/release/python-3120a4/</link>
+      <description>CPython 3.12.0a4</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.12.0a3</guid>
-      <pubDate>Tue, 06 Dec 2022 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.12.0a4</guid>
+      <pubDate>Tue, 10 Jan 2023 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.11.1</title>
