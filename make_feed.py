@@ -54,7 +54,7 @@ RELEASE_DATE_FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
 
 LOG_LEVEL = (
     logging.DEBUG
-    if os.environ.get("LOG_DEBUG", "false") == "true"
+    if os.environ.get("LOG_DEBUG", "missing") == "true"
     else logging.INFO
 )
 
@@ -63,6 +63,7 @@ logging.basicConfig(format=FORMAT, stream=sys.stdout, level=LOG_LEVEL)
 
 logger: logging.Logger = logging.getLogger()
 
+logger.info(f"Log env var: {os.environ.get('LOG_DEBUG', 'missing')}")
 
 @attr.s(slots=True)
 class Info:
