@@ -63,8 +63,6 @@ logging.basicConfig(format=FORMAT, stream=sys.stdout, level=LOG_LEVEL)
 
 logger: logging.Logger = logging.getLogger()
 
-logger.info(f"Log env var: {os.environ.get('LOG_DEBUG', 'missing')}")
-
 @attr.s(slots=True)
 class Info:
     version: str = attr.ib(validator=attr.validators.instance_of(str))

@@ -44,6 +44,8 @@ jobs:
         pip list
 
     - name: Update feed
+      env:
+        LOG_DEBUG: ${{ inputs.log_debug }}
       run: |
         python make_feed.py
 
