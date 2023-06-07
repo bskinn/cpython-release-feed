@@ -52,7 +52,11 @@ TIMESTAMP: datetime = arrow.utcnow().datetime
 
 RELEASE_DATE_FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
 
-LOG_LEVEL = logging.DEBUG if os.environ.get("LOG_DEBUG") else logging.INFO
+LOG_LEVEL = (
+    logging.DEBUG
+    if os.environ.get("LOG_DEBUG", "false") == "true"
+    else logging.INFO
+)
 
 FORMAT: str = "%(asctime)-15s  [%(levelname)-10s]  %(message)s"
 logging.basicConfig(format=FORMAT, stream=sys.stdout, level=LOG_LEVEL)
