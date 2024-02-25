@@ -220,9 +220,11 @@ def main():
     logger.info("Base feed generator created")
 
     # Pre-release(s) first so that they populate at the head of the
-    # feed
-    [add_feed_item(fg, extract_pre_info(body)) for body in gen_pre_entries(resp_pre)]
-    logger.info("Prereleases added to feed")
+    # feed.
+    # SKIPPED since the prereleases page is currently missing.
+    # [add_feed_item(fg, extract_pre_info(body)) for body in gen_pre_entries(resp_pre)]
+    # logger.info("Prereleases added to feed")
+    logger.info("Pre-releases skipped due to missing python.org pre-release page")
 
     [
         add_feed_item(fg, extract_stable_info(li))
