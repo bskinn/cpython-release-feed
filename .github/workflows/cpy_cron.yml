@@ -21,7 +21,7 @@ on:
 
 
 jobs:
-  link_check:
+  feedgen:
     name: Update CPython release feed
     runs-on: ubuntu-latest
 
