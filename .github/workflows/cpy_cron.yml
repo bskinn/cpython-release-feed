@@ -32,7 +32,10 @@ jobs:
     - name: Install Python
       uses: actions/setup-python@v5
       with:
-        python-version: 3.9
+        python-version: '3.9'
+        cache: 'pip'
+        cache-dependency-path: |
+          requirements.txt
 
     - name: Update pip
       run: python -m pip install -U pip
