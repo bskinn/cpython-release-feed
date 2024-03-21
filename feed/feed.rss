@@ -13,7 +13,15 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 20 Mar 2024 01:06:01 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 21 Mar 2024 00:18:21 +0000</lastBuildDate>
+    <item>
+      <title>CPython 3.13.0a5</title>
+      <link>https://www.python.org/downloads/release/python-3130a5/</link>
+      <description>CPython 3.13.0a5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.13.0a5</guid>
+      <pubDate>Tue, 12 Mar 2024 00:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>CPython 3.10.14</title>
       <link>https://www.python.org/downloads/release/python-31014/</link>
