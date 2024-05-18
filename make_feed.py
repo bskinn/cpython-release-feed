@@ -168,12 +168,12 @@ def create_base_feed() -> FeedGenerator:
     fg.title("CPython Release Downloads")
     fg.author({"name": "Brian Skinn", "email": "brian.skinn@gmail.com"})
     fg.link(
-        href="https://github.com/bskinn/cpython-release-feed/raw/master/feed/feed.rss",
+        href="https://github.com/bskinn/cpython-release-feed/raw/main/feed/feed.rss",
         rel="self",
     )
     fg.link(href="https://github.com/bskinn/cpython-release-feed", rel="alternate")
     fg.logo(
-        "https://github.com/bskinn/cpython-release-feed/raw/master/_static/py-release-logo.jpg"
+        "https://github.com/bskinn/cpython-release-feed/raw/main/_static/py-release-logo.jpg"
     )
     fg.language("en")
     fg.description("Feed for CPython releases posted to www.python.org")
