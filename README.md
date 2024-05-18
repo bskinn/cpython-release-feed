@@ -4,7 +4,7 @@ _Want to know when new versions of CPython are available?_
 
 RSS to the rescue!
 
-I build my own CPython from source on the regular, and I didn't want to have to
+I build my own CPython from source on WSL and my Linux machines, and I didn't want to have to
 manually check the downloads page to find out when new versions drop.
 
 I wasn't able to find an RSS feed that gave me what I was looking for (see
