@@ -7,7 +7,7 @@ r"""*Module to generate CPython release RSS feed.*
     25 Feb 2021
 
 **Copyright**
-    \(c) Brian Skinn 2021
+    \(c) Brian Skinn 2021-2024
 
 **Source Repository**
     http://www.github.com/bskinn/cpython-release-feed
