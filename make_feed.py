@@ -53,15 +53,14 @@ TIMESTAMP: datetime = arrow.utcnow().datetime
 RELEASE_DATE_FORMATS = ("MMM. D, YYYY", "MMM D, YYYY", "MMMM D, YYYY")
 
 LOG_LEVEL = (
-    logging.DEBUG
-    if os.environ.get("LOG_DEBUG", "missing") == "true"
-    else logging.INFO
+    logging.DEBUG if os.environ.get("LOG_DEBUG", "missing") == "true" else logging.INFO
 )
 
 FORMAT: str = "%(asctime)-15s  [%(levelname)-10s]  %(message)s"
 logging.basicConfig(format=FORMAT, stream=sys.stdout, level=LOG_LEVEL)
 
 logger: logging.Logger = logging.getLogger()
+
 
 @attr.s(slots=True)
 class Info:
