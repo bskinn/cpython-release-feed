@@ -8,7 +8,7 @@ I build my own CPython from source on WSL and my Linux machines, and I didn't wa
 manually check the downloads page to find out when new versions drop.
 
 I wasn't able to find an RSS feed that gave me what I was looking for (see
-[`python/pythondotorg#1612`][#1612] for more context), so I built my own.
+[python/pythondotorg#1612][#1612] for more context), so I built my own.
 
 Point your RSS feed reader [here][rss xml], and get notified!
 
