@@ -10,6 +10,11 @@ do_commit () {
   then
     git push
   fi
+
+  # Keep the prior 'master' up to date with 'main' to avoid
+  # breaking existing subscribers
+  git checkout master && git reset --hard main && git push -f
+
 }
 
 if [[ $TRIGGER = "schedule" ]]
