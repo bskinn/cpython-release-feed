@@ -1,7 +1,7 @@
 r"""*Module to generate CPython release RSS feed.*
 
 **Author**
-    Brian Skinn (bskinn@alum.mit.edu)
+    Brian Skinn (brian.skinn@gmail.com)
 
 **File Created**
     25 Feb 2021
