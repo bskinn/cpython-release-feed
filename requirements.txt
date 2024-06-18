@@ -20,8 +20,6 @@ charset-normalizer==3.3.2
     # via requests
 click==8.1.7
     # via black
-colorama==0.4.6
-    # via click
 fancycompleter==0.9.1
     # via pdbpp
 feedgen==1.0.0
@@ -48,8 +46,6 @@ platformdirs==4.2.2
     # via black
 pygments==2.18.0
     # via pdbpp
-pyreadline==2.1
-    # via fancycompleter
 pyrepl==0.9.0
     # via fancycompleter
 python-dateutil==2.9.0.post0
@@ -66,7 +62,7 @@ types-python-dateutil==2.9.0.20240316
     # via arrow
 typing-extensions==4.11.0
     # via mypy
-urllib3==2.2.1
+urllib3==2.2.2
     # via requests
 wmctrl==0.5
     # via pdbpp
