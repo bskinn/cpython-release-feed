@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 04 Feb 2025 01:07:12 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 05 Feb 2025 01:07:14 +0000</lastBuildDate>
     <item>
       <title>CPython 3.14.0a4</title>
       <link>https://www.python.org/downloads/release/python-3140a4/</link>
@@ -21,6 +21,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.0a4</guid>
       <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.12.9</title>
+      <link>https://www.python.org/downloads/release/python-3129/</link>
+      <description>CPython 3.12.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.12.9</guid>
+      <pubDate>Tue, 04 Feb 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.12.8</title>
@@ -1311,11 +1319,11 @@
       <pubDate>Sun, 12 May 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 2.7.4</title>
-      <link>https://www.python.org/downloads/release/python-274/</link>
-      <description>CPython 2.7.4</description>
+      <title>CPython 3.3.1</title>
+      <link>https://www.python.org/downloads/release/python-331/</link>
+      <description>CPython 3.3.1</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.4</guid>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.1</guid>
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1327,11 +1335,11 @@
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 3.3.1</title>
-      <link>https://www.python.org/downloads/release/python-331/</link>
-      <description>CPython 3.3.1</description>
+      <title>CPython 2.7.4</title>
+      <link>https://www.python.org/downloads/release/python-274/</link>
+      <description>CPython 2.7.4</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.1</guid>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.4</guid>
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1343,19 +1351,19 @@
       <pubDate>Sat, 29 Sep 2012 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 2.6.8</title>
-      <link>https://www.python.org/downloads/release/python-268/</link>
-      <description>CPython 2.6.8</description>
-      <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.8</guid>
-      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CPython 3.2.3</title>
       <link>https://www.python.org/downloads/release/python-323/</link>
       <description>CPython 3.2.3</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.3</guid>
+      <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.6.8</title>
+      <link>https://www.python.org/downloads/release/python-268/</link>
+      <description>CPython 2.6.8</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.6.8</guid>
       <pubDate>Tue, 10 Apr 2012 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1391,19 +1399,19 @@
       <pubDate>Sat, 09 Jul 2011 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 3.1.4</title>
-      <link>https://www.python.org/downloads/release/python-314/</link>
-      <description>CPython 3.1.4</description>
-      <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.4</guid>
-      <pubDate>Sat, 11 Jun 2011 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CPython 2.7.2</title>
       <link>https://www.python.org/downloads/release/python-272/</link>
       <description>CPython 2.7.2</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.2</guid>
+      <pubDate>Sat, 11 Jun 2011 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.1.4</title>
+      <link>https://www.python.org/downloads/release/python-314/</link>
+      <description>CPython 3.1.4</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.1.4</guid>
       <pubDate>Sat, 11 Jun 2011 00:00:00 +0000</pubDate>
     </item>
     <item>
