@@ -52,7 +52,7 @@ python-dateutil==2.9.0.post0
     # via
     #   arrow
     #   feedgen
-requests==2.32.2
+requests==2.32.4
     # via -r requirements.in
 six==1.16.0
     # via python-dateutil
