@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 22 Jul 2025 01:07:58 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 23 Jul 2025 01:08:08 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.14.0b4</title>
-      <link>https://www.python.org/downloads/release/python-3140b4/</link>
-      <description>CPython 3.14.0b4</description>
+      <title>CPython 3.14.0rc1</title>
+      <link>https://www.python.org/downloads/release/python-3140rc1/</link>
+      <description>CPython 3.14.0rc1</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.0b4</guid>
-      <pubDate>Tue, 08 Jul 2025 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.0rc1</guid>
+      <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.13.5</title>
