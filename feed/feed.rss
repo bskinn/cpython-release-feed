@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 06 Aug 2025 01:08:08 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 07 Aug 2025 01:08:11 +0000</lastBuildDate>
     <item>
       <title>CPython 3.14.0rc1</title>
       <link>https://www.python.org/downloads/release/python-3140rc1/</link>
@@ -21,6 +21,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.0rc1</guid>
       <pubDate>Tue, 22 Jul 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.13.6</title>
+      <link>https://www.python.org/downloads/release/python-3136/</link>
+      <description>CPython 3.13.6</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.13.6</guid>
+      <pubDate>Wed, 06 Aug 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.13.5</title>
@@ -1391,19 +1399,19 @@
       <pubDate>Tue, 29 Oct 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 3.2.5</title>
-      <link>https://www.python.org/downloads/release/python-325/</link>
-      <description>CPython 3.2.5</description>
-      <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.5</guid>
-      <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CPython 3.3.2</title>
       <link>https://www.python.org/downloads/release/python-332/</link>
       <description>CPython 3.3.2</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.2</guid>
+      <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.2.5</title>
+      <link>https://www.python.org/downloads/release/python-325/</link>
+      <description>CPython 3.2.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.2.5</guid>
       <pubDate>Wed, 15 May 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1415,19 +1423,19 @@
       <pubDate>Sun, 12 May 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 3.3.1</title>
-      <link>https://www.python.org/downloads/release/python-331/</link>
-      <description>CPython 3.3.1</description>
-      <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.1</guid>
-      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CPython 2.7.4</title>
       <link>https://www.python.org/downloads/release/python-274/</link>
       <description>CPython 2.7.4</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.7.4</guid>
+      <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.3.1</title>
+      <link>https://www.python.org/downloads/release/python-331/</link>
+      <description>CPython 3.3.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.3.1</guid>
       <pubDate>Sat, 06 Apr 2013 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1647,19 +1655,19 @@
       <pubDate>Tue, 23 Dec 2008 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 2.5.3</title>
-      <link>https://www.python.org/downloads/release/python-253/</link>
-      <description>CPython 2.5.3</description>
-      <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.3</guid>
-      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CPython 2.4.6</title>
       <link>https://www.python.org/downloads/release/python-246/</link>
       <description>CPython 2.4.6</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.6</guid>
+      <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.5.3</title>
+      <link>https://www.python.org/downloads/release/python-253/</link>
+      <description>CPython 2.5.3</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.5.3</guid>
       <pubDate>Fri, 19 Dec 2008 00:00:00 +0000</pubDate>
     </item>
     <item>
@@ -1687,19 +1695,19 @@
       <pubDate>Thu, 02 Oct 2008 00:00:00 +0000</pubDate>
     </item>
     <item>
-      <title>CPython 2.4.5</title>
-      <link>https://www.python.org/downloads/release/python-245/</link>
-      <description>CPython 2.4.5</description>
-      <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.5</guid>
-      <pubDate>Tue, 11 Mar 2008 00:00:00 +0000</pubDate>
-    </item>
-    <item>
       <title>CPython 2.3.7</title>
       <link>https://www.python.org/downloads/release/python-237/</link>
       <description>CPython 2.3.7</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.3.7</guid>
+      <pubDate>Tue, 11 Mar 2008 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 2.4.5</title>
+      <link>https://www.python.org/downloads/release/python-245/</link>
+      <description>CPython 2.4.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-2.4.5</guid>
       <pubDate>Tue, 11 Mar 2008 00:00:00 +0000</pubDate>
     </item>
     <item>
