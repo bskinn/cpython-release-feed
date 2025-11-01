@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 31 Oct 2025 01:07:46 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 01 Nov 2025 01:07:58 +0000</lastBuildDate>
     <item>
       <title>CPython 3.15.0a1</title>
       <link>https://www.python.org/downloads/release/python-3150a1/</link>
@@ -21,6 +21,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.15.0a1</guid>
       <pubDate>Tue, 14 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.9.25</title>
+      <link>https://www.python.org/downloads/release/python-3925/</link>
+      <description>CPython 3.9.25</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.9.25</guid>
+      <pubDate>Fri, 31 Oct 2025 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.13.9</title>
