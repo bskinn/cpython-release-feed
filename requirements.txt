@@ -62,7 +62,7 @@ types-python-dateutil==2.9.0.20240316
     # via arrow
 typing-extensions==4.11.0
     # via mypy
-urllib3==2.6.0
+urllib3==2.6.3
     # via requests
 wmctrl==0.5
     # via pdbpp
