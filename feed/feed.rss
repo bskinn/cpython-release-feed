@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Mar 2026 01:08:46 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 04 Mar 2026 01:08:28 +0000</lastBuildDate>
     <item>
       <title>CPython 3.15.0a6</title>
       <link>https://www.python.org/downloads/release/python-3150a6/</link>
@@ -157,6 +157,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.13.0</guid>
       <pubDate>Mon, 07 Oct 2024 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.12.13</title>
+      <link>https://www.python.org/downloads/release/python-31213/</link>
+      <description>CPython 3.12.13</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.12.13</guid>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.12.12</title>
@@ -389,6 +397,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.11.0</guid>
       <pubDate>Mon, 24 Oct 2022 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.10.20</title>
+      <link>https://www.python.org/downloads/release/python-31020/</link>
+      <description>CPython 3.10.20</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.10.20</guid>
+      <pubDate>Tue, 03 Mar 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.10.19</title>
