@@ -12,7 +12,7 @@ attrs==23.2.0
     #   wmctrl
 beautifulsoup4==4.12.3
     # via -r requirements.in
-black==24.4.2
+black==26.3.1
     # via -r requirements.in
 certifi==2024.7.4
     # via requests
@@ -38,7 +38,7 @@ packaging==24.0
     # via
     #   -r requirements.in
     #   black
-pathspec==0.12.1
+pathspec==1.0.4
     # via black
 pdbpp==0.10.3
     # via -r requirements.in
@@ -52,6 +52,8 @@ python-dateutil==2.9.0.post0
     # via
     #   arrow
     #   feedgen
+pytokens==0.4.1
+    # via black
 requests==2.32.4
     # via -r requirements.in
 six==1.16.0
