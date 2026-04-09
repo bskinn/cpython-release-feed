@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 08 Apr 2026 01:09:02 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 09 Apr 2026 01:08:35 +0000</lastBuildDate>
     <item>
       <title>CPython 3.15.0a8</title>
       <link>https://www.python.org/downloads/release/python-3150a8/</link>
@@ -61,6 +61,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.0</guid>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.13.13</title>
+      <link>https://www.python.org/downloads/release/python-31313/</link>
+      <description>CPython 3.13.13</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.13.13</guid>
+      <pubDate>Tue, 07 Apr 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.13.12</title>
