@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Sun, 10 May 2026 01:20:40 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 11 May 2026 01:21:27 +0000</lastBuildDate>
     <item>
       <title>CPython 3.15.0b1</title>
       <link>https://www.python.org/downloads/release/python-3150b1/</link>
@@ -21,6 +21,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.15.0b1</guid>
       <pubDate>Thu, 07 May 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.14.5</title>
+      <link>https://www.python.org/downloads/release/python-3145/</link>
+      <description>CPython 3.14.5</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.5</guid>
+      <pubDate>Sun, 10 May 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.14.4</title>
