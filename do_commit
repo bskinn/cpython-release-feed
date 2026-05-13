@@ -5,7 +5,7 @@ do_commit () {
   git config user.email "brian.skinn@gmail.com"
 
   git add . && git commit -m "Commit feed - $( date -uIs )"
-  
+
   if [[ $? -eq 0 ]]
   then
     git push
@@ -13,7 +13,12 @@ do_commit () {
 
   # Keep the prior 'master' up to date with 'main' to avoid
   # breaking existing subscribers
-  git checkout master && git reset --hard main && git push -f
+  if [[ -n $( git branch | grep '*' | grep -E '^\s*[*]\s+main\s*$' ) ]]; then
+    echo "Updating master to be even with main..."
+    git checkout master && git reset --hard main && git push -f
+  else
+    echo "Not on main, skipping update of master"
+  fi
 
 }
 
