@@ -38,7 +38,6 @@ from bs4 import BeautifulSoup as BSoup
 from feedgen.feed import FeedGenerator  # type: ignore
 from packaging.utils import canonicalize_version
 
-
 PYTHON_ORG: str = "https://www.python.org/"
 
 STABLE_URL: str = "https://www.python.org/downloads/"
