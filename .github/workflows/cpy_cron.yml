@@ -1,6 +1,6 @@
 name: cpy-cron
 
-on: 
+on:
   push:
     branches:
       - test-*
@@ -20,19 +20,29 @@ on:
         default: true
 
 
+permissions: {}
+
 jobs:
   feedgen:
     name: Update CPython release feed
     runs-on: ubuntu-latest
 
+    permissions:
+      contents: write  # Since we're committing back
+
     steps:
+    - name: Set pip date exclusion
+      run: |
+        echo "PIP_UPLOADED_PRIOR_TO=$( date -Is --date="3 days ago" | sed 's|+00:00|Z|')" >> $GITHUB_ENV
+
     - name: Check out repo
-      uses: actions/checkout@v6
+      uses: actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd
       with:
         fetch-depth: 0
+        persist-credentials: true  # Since we're committing back
 
     - name: Install Python
-      uses: actions/setup-python@v6
+      uses: actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405
       with:
         python-version: '3.12'
         cache: 'pip'
