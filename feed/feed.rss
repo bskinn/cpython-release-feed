@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Fri, 02 Oct 2026 06:10:54 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 03 Oct 2026 05:43:20 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.15.0rc2</title>
-      <link>https://www.python.org/downloads/release/python-3150rc2/</link>
-      <description>CPython 3.15.0rc2</description>
+      <title>CPython 3.15.0rc3</title>
+      <link>https://www.python.org/downloads/release/python-3150rc3/</link>
+      <description>CPython 3.15.0rc3</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.15.0rc2</guid>
-      <pubDate>Tue, 01 Sep 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.15.0rc3</guid>
+      <pubDate>Fri, 02 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.14.8</title>
