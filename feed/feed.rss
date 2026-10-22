@@ -13,7 +13,7 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Wed, 21 Oct 2026 05:17:28 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 05:20:24 +0000</lastBuildDate>
     <item>
       <title>CPython 3.16.0a1</title>
       <link>https://www.python.org/downloads/release/python-3160a1/</link>
@@ -23,12 +23,28 @@
       <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
+      <title>CPython 3.15.1</title>
+      <link>https://www.python.org/downloads/release/python-3151/</link>
+      <description>CPython 3.15.1</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.15.1</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
       <title>CPython 3.15.0</title>
       <link>https://www.python.org/downloads/release/python-3150/</link>
       <description>CPython 3.15.0</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.15.0</guid>
       <pubDate>Fri, 09 Oct 2026 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.14.9</title>
+      <link>https://www.python.org/downloads/release/python-3149/</link>
+      <description>CPython 3.14.9</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.9</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.14.8</title>
@@ -101,6 +117,14 @@
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
       <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.14.0</guid>
       <pubDate>Tue, 07 Oct 2025 00:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CPython 3.13.17</title>
+      <link>https://www.python.org/downloads/release/python-31317/</link>
+      <description>CPython 3.13.17</description>
+      <author>brian.skinn@gmail.com (Brian Skinn)</author>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.13.17</guid>
+      <pubDate>Wed, 21 Oct 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.13.16</title>
