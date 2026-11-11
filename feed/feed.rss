@@ -13,14 +13,14 @@
       <link>https://github.com/bskinn/cpython-release-feed</link>
     </image>
     <language>en</language>
-    <lastBuildDate>Tue, 10 Nov 2026 07:43:29 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 11 Nov 2026 07:05:24 +0000</lastBuildDate>
     <item>
-      <title>CPython 3.16.0a1</title>
-      <link>https://www.python.org/downloads/release/python-3160a1/</link>
-      <description>CPython 3.16.0a1</description>
+      <title>CPython 3.16.0a2</title>
+      <link>https://www.python.org/downloads/release/python-3160a2/</link>
+      <description>CPython 3.16.0a2</description>
       <author>brian.skinn@gmail.com (Brian Skinn)</author>
-      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.16.0a1</guid>
-      <pubDate>Tue, 13 Oct 2026 00:00:00 +0000</pubDate>
+      <guid isPermaLink="false">https://github.com/bskinn/cpython-release-feed-3.16.0a2</guid>
+      <pubDate>Tue, 10 Nov 2026 00:00:00 +0000</pubDate>
     </item>
     <item>
       <title>CPython 3.15.2</title>
